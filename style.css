@@ -1,0 +1,438 @@
+.home{
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(./imgs/imgs/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: #343434;
+  height: 100vh;
+
+
+}
+.navbar-nav .nav-link,
+.navbar-brand  nav-link {
+  color: white; 
+  
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 18px;
+}
+h5 {
+
+  font-size: 50px;
+    font-weight: 800;
+}
+h4 {
+
+  font-size: 50px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+
+.container h4::after{
+    content:"|";
+    animation-name: typing;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes typing{
+    0% {content:"|";}
+    1% {content:"D|";}
+    2% {content:"DE|";}
+    4% {content:"DEV|";}
+    5% {content:"DEVE|";}
+    6% {content:"DEVEL|";}
+    7% {content:"DEVELO|";}
+    8% {content:"DEVELEOP|";}
+    9% {content:"DEVELEOPE|";}
+    10% {content:"DEVELEOPER|";}
+    11% {content:"L|";}  
+    12% {content:"La|";}
+    13% {content:"Lar|";}
+    14% {content:"Larr|";}
+    15% {content:"Larry |";}
+    16% {content:"Larry D|";}
+    17% {content:"Larry Da|";}
+    18% {content:"Larry Dan|";}
+    19% {content:"Larry Dani|";}
+    20% {content:"Larry Danie|";}
+    21% {content:"Larry Daniel|";}
+    22% {content:"Larry Daniels|";}
+    23% {content:"Lar|";}
+    24% {content:"La|";}
+    25% {content:"L|";}
+    26% {content:"F|";}
+    27% {content:"Fr|";}
+    28% {content:"Fre|";}
+    29% {content:"Free|";}
+    30% {content:"Freel|";}
+    31% {content:"Freela|";}
+    32% {content:"Freelan|";}
+    33% {content:"Freelanc|";}
+    34% {content:"Freelance|";}
+    35% {content:"Freelancer|";}
+    36% {content:"Freelance|";}
+    37% {content:"Freelanc|";}
+    38% {content:"Freelan|";}
+    39% {content:"Freela|";}
+    40% {content:"Freel|";}
+    41% {content:"Free|";}
+    42% {content:"Fre|";}
+    43% {content:"Fr|";}
+    44% {content:"F|";}
+    45% {content:"P|";}
+    46% {content:"Ph|";}
+    47% {content:"Pho|";}
+    48% {content:"Phot|";}
+    49% {content:"Photo|";}
+    50% {content:"Photog|";}
+    51% {content:"Photogr|";}
+    52% {content:"Photogra|";}
+    53% {content:"Photograp|";}
+    54% {content:"Photograph|";}
+    55% {content:"Photographe|";}
+    56% {content:"Photographer|";}
+    57% {content:"Photographer.|";}
+    58% {content:"Photographer|";}
+    59% {content:"Photographe|";}
+    60% {content:"Photograph|";}
+    61% {content:"Photograp|";}
+    62% {content:"Photogra|";}
+    64% {content:"Photogr|";}
+    66% {content:"Photog|";}
+    67% {content:"Photo|";}
+    69% {content:"Phot|";}
+    70% {content:"Pho|";}
+    72% {content:"Ph|";}
+    74% {content:"P|";}
+    75% {content:"D|";}
+    77% {content:"De|";}
+    78% {content:"Des|";}
+    80% {content:"Desi|";}
+    81% {content:"Desig|";}
+    83% {content:"Design|";}
+    85% {content:"Designe|";}
+    86% {content:"Designer|";}
+    88% {content:"Designer.|";}
+    89% {content:"Designer|";}
+    91% {content:"Designe|";}
+    92% {content:"Design|";}
+    94% {content:"Desig|";}
+    95% {content:"Desi|";}
+    97% {content:"Des|";}
+    98% {content:"De|";}
+    100% {content:"D|";}
+}
+
+.icons-home {
+ width: 40px;
+ height: 40px;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ border: 1px solid transparent;
+ background-color: rgba(0, 0, 0, 0.2);
+margin-top: 40px;}
+.navbar-brand {
+  float: left;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 800;
+  margin-left: 80px;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+  color: white;
+}
+.nav-item{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sub-title{
+ color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.hero .skills .item {
+  margin-bottom: 30px;
+}
+.hero .skills .skills-progress {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+  position: relative;
+}
+.progress .mb-4 {
+  height: 30%;
+}
+about-me {
+
+    font-family: "Source Sans 3", sans-serif;
+}
+first-two input{
+  width: 48%;
+}
+bt-form{
+  background-color: black;
+  color: #999;
+  margin-top: 20px;
+}
+.first-two .botton-hover:hover{
+background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+}
+form-edit{
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  background: #f4f4f4;
+}
+#portfolio {
+  .portfolio-select ul li button {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .portfolio-select ul li button:after {
+    content: "";
+    width: 65%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: -110%;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  .portfolio-select ul li button.active:after {
+    left: 16%;
+  }
+
+  .portfolio-image-overlay {
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    right: 18px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 2;
+    -webkit-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+
+  .portfolio-image-caption h6 {
+    letter-spacing: 1px;
+    -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+            transform: translateY(-10px);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  .portfolio-icons-circle {
+    background-color: #111;
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+            transform: translateY(10px);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    & a {
+      color: #fff;
+    }
+
+    &:hover {
+      background-color: #fff;
+      border: 1px solid #111;
+
+      & a {
+        color: #111;
+      }
+    }
+  }
+
+  .portfolio-image:hover .portfolio-image-overlay {
+    -webkit-transform: translate(0%, 0%);
+        -ms-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    opacity: 1;
+  }
+
+  .portfolio-image:hover .portfolio-image-caption h6 {
+    -webkit-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  .portfolio-image:hover .portfolio-icons-circle {
+    -webkit-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+}
+
+
+footer{
+  background: #1c1c1c;
+    padding: 10px;
+    height: 20%;
+    color: #748182;
+  }
+
+  #services {
+    background-color: #f7f7f7;
+   
+  
+    
+    .service-box {
+      background-color: #fff;
+      padding: 2.5rem 1.3rem;
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      line-height: 35px;
+    }
+  
+    .icon-circle {
+      height: 70px;
+      width: 70px;
+      font-size: 5rem;
+      border-radius: 50%;
+    }
+    .service-box .icon-circle i {
+      line-height: 0;
+      font-size: 2rem;
+      padding: 2.3rem 1.2rem;
+      background-color: #f7f7f7;
+      border-radius: 50%;
+      transition: 0.5s;
+    }
+    .service-content {
+      padding-top: 20px;
+      h2 {
+        font-size: 22px;
+        font-weight: 500;
+        padding-top: 0.5rem;
+      }
+    }
+    
+    .service-box:hover .icon-circle i {
+      background-color: black;
+      color: #fff;
+    }
+    
+    .services-score {
+      height: 400px;
+    }
+    .info p {
+      font-size: 32px;
+      font-weight: 400;
+    }
+  
+    .ico-circle {
+      height: 70px;
+      width: 70px;
+      font-size: 2rem;
+      border-radius: 50%;
+      line-height: 1.55;
+      margin: 0 auto;
+      text-align: center;
+      box-shadow: 0 0 0 10px #cde1f8;
+      display: block;
+    }
+  
+    
+  
+    @media (max-width: 992px) {
+      .bg-image {
+        background-attachment: local;
+        background-size: auto;
+      }
+      .services-score {
+        height: 1000px;
+      }
+    }
+  }
+  .text{
+font-family: "Poppins", sans-serif;
+font-size: 14px
+;
+font-weight: 400;
+  }
+  .info p{
+    font-family: "Montserrat", sans-serif;
+font-size: 30px;
+font-weight: 900;
+  }
+.card-body{
+  background-color: #5B5B5B;
+  color: #ffff;
+ 
+}
+  .card-title h5{
+    font-family: "Montserrat", sans-serif;
+    color: #ffff;
+    font-size: 25px;
+    font-weight: 400;
+
+  }
+  .card-text p{
+    font-family: "Montserrat", sans-serif;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700;
+
+  }
+  .team-text-edit{
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
